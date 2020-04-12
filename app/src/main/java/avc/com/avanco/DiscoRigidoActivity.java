@@ -1,15 +1,17 @@
-package avc.com.olamundo;
+package avc.com.avanco;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class SorveteActivity extends AppCompatActivity {
+import avc.com.avanco.R;
+
+public class DiscoRigidoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sorvete);
+        setContentView(R.layout.activity_cat_discorigido);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }

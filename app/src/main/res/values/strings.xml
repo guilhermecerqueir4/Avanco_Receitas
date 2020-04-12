@@ -1,14 +1,14 @@
 <resources>
-    <string name="app_name">Avanço Receitas</string>
-    <string name="botao_ver_receita">VER RECEITA</string>
+    <string name="app_name">Avanço Tech</string>
+    <string name="botao_ver_categoria">VER CATEGORIA</string>
 
-    <string name="receita_bolo_titulo">Receita de Bolo</string>
-    <string name="receita_bolo_desc">Receita de bolo para aniversário e casamento</string>
-    <string name="receita_bolo_conteudo">
+    <string name="cat_placamae_titulo">Receita de Bolo</string>
+    <string name="cat_placamae_desc">Receita de bolo para aniversário e casamento</string>
+    <string name="cat_placamae_conteudo">
         - 2 xícaras (chá) de açúcar
         \n- 3 xícaras (chá) de farinha de trigo
         \n- 4 colheres (sopa) de margarina
-        \n- 3 ovos
+        \n- 2 Ovos
         \n- 1 e 1/2 xícara (chá) de leite
         \n- 1 colher (sopa) bem cheia de fermento em pó
         \n
@@ -20,9 +20,9 @@
         \n6. Asse em forno médio 180 °C, preaquecido, por aproximadamente 40 minutos ou ao furar o bolo com um garfo, este saia limpo.
     </string>
 
-    <string name="receita_torta_titulo">Receita de Torta</string>
-    <string name="receita_torta_desc">Receita de torta doce</string>
-    <string name="receita_torta_conteudo">
+    <string name="cat_placavideo_titulo">Receita de Torta</string>
+    <string name="cat_placavideo_desc">Receita de torta doce</string>
+    <string name="cat_placavideo_conteudo">
         - 2 xícaras de farinha de trigo
         \n- 2 xícaras de açúcar
         \n- 1 colher de sopa de fermento em pó
@@ -45,9 +45,9 @@
         \n11. Depois de pronto polvilhar açúcar e canela.
     </string>
 
-    <string name="receita_cookie_titulo">Receita de Cookie</string>
-    <string name="receita_cookie_desc">Receita de cookie de chocolate recheado</string>
-    <string name="receita_cookie_conteudo">
+    <string name="cat_processador_titulo">Receita de Cookie</string>
+    <string name="cat_processador_desc">Receita de cookie de chocolate recheado</string>
+    <string name="cat_processador_conteudo">
         - 125 g de manteiga sem sal em temperatura ambiente
         \n- 3/4 xícara de açúcar
         \n- 1/2 xícara de açúcar mascavo
@@ -69,9 +69,9 @@
         \n8. O tempo de forno depende e tem que cuidar para não queimar embaixo.
     </string>
 
-    <string name="receita_sorvete_titulo">Receita de Sorvete</string>
-    <string name="receita_sorvete_desc">Receita de sorvete de creme com chocolate</string>
-    <string name="receita_sorvete_conteudo">
+    <string name="cat_discorigido_titulo">Receita de Sorvete</string>
+    <string name="cat_discorigido_desc">Receita de sorvete de creme com chocolate</string>
+    <string name="cat_discorigido_conteudo">
         - 1 lata de leite condensado
         \n- 3 latas de leite (medida do leite condensado)
         \n- 4 gemas

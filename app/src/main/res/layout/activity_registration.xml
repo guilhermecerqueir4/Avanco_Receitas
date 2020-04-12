@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="avc.com.avanco.RegistrationActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="588dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:elevation="2dp"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/avanco_logo_invert" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Registre-se abaixo"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/edit"
+                android:drawableLeft="@drawable/ic_person"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="email"
+                android:inputType="textEmailAddress"
+                android:padding="15dp"
+                android:textColorHint="@color/colorAccent"
+                android:textSize="15dp"
+
+                />
+
+            <EditText
+                android:id="@+id/senha"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                android:drawableLeft="@drawable/ic_lock_"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="senha"
+                android:inputType="textPassword"
+                android:padding="15dp"
+                android:textColorHint="@color/colorAccent"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/confirmarSenha"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                android:drawableLeft="@drawable/ic_lock_"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="confirmar senha"
+                android:inputType="textPassword"
+                android:padding="15dp"
+                android:textColorHint="@color/colorAccent"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/botaoRegistro"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:background="@color/colorAccent"
+                android:drawablePadding="10dp"
+                android:text="Registrar"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="OU "
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/botaoLogin"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:background="@color/colorAccent"
+                android:drawablePadding="10dp"
+                android:text="FAZER LOGIN"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+

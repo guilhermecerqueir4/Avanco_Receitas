@@ -1,4 +1,4 @@
-package avc.com.olamundo;
+package avc.com.avanco;
 
 import org.junit.Test;
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="avc.com.olamundo">
+    package="avc.com.avanco">
 
     <application
         android:allowBackup="true"
@@ -9,38 +9,46 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".MainActivity">
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".RegistrationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".DiscoRigidoActivity"
+            android:parentActivityName=".MainActivity" />
 
-        <activity android:name=".SorveteActivity"
-            android:parentActivityName=".MainActivity"/>
-        <meta-data android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity" />
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="avc.com.avanco.MainActivity" />
 
+        <activity
+            android:name=".ProcessadorActivity"
+            android:parentActivityName=".MainActivity" />
 
-        <activity android:name=".CookieActivity"
-            android:parentActivityName=".MainActivity"/>
-        <meta-data android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity" />
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="avc.com.avanco.MainActivity" />
 
+        <activity
+            android:name=".PlacaVideoActivity"
+            android:parentActivityName=".MainActivity" />
 
-        <activity android:name=".TortaActivity"
-            android:parentActivityName=".MainActivity"/>
-             <meta-data android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity" />
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="avc.com.avanco.MainActivity" />
 
+        <activity
+            android:name=".PlacaMaeActivity"
+            android:parentActivityName=".MainActivity" />
 
-
-        <activity android:name=".BoloActivity"
-            android:parentActivityName=".MainActivity"/>
-            <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="avc.com.avanco.MainActivity" />
     </application>
 
 </manifest>

@@ -1,16 +1,19 @@
-package avc.com.olamundo;
+package avc.com.avanco;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class TortaActivity extends AppCompatActivity {
+import avc.com.avanco.R;
+
+public class PlacaMaeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_torta);
+        setContentView(R.layout.activity_cat_placamae);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
+
 }

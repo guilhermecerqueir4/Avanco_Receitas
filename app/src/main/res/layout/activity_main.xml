@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context=".MainActivity">
+    tools:context="avc.com.avanco.MainActivity">
 
 
     <LinearLayout
@@ -32,7 +32,7 @@
                 android:paddingLeft="16dp"
                 android:paddingTop="16dp"
                 android:paddingRight="16dp"
-                android:text="@string/receita_bolo_titulo"
+                android:text="@string/cat_placamae_titulo"
                 android:textAppearance="?android:textAppearanceLarge" />
 
 
@@ -42,18 +42,18 @@
                 android:paddingLeft="16dp"
                 android:paddingTop="16dp"
                 android:paddingRight="16dp"
-                android:text="@string/receita_bolo_desc"
+                android:text="@string/cat_placamae_desc"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <Button
-                android:id="@+id/botao_bolo"
+                android:id="@+id/botao_cat_placamae"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="16dp"
                 android:paddingTop="16dp"
                 android:paddingRight="16dp"
-                android:text="@string/botao_ver_receita" />
+                android:text="@string/botao_ver_categoria" />
 
             <ImageView
                 android:layout_width="match_parent"
@@ -77,7 +77,7 @@
                 android:paddingLeft="16dp"
                 android:paddingTop="16dp"
                 android:paddingRight="16dp"
-                android:text="@string/receita_torta_titulo"
+                android:text="@string/cat_placavideo_titulo"
                 android:textAppearance="?android:textAppearanceLarge" />
 
 
@@ -87,18 +87,18 @@
                 android:paddingLeft="16dp"
                 android:paddingTop="16dp"
                 android:paddingRight="16dp"
-                android:text="@string/receita_torta_desc"
+                android:text="@string/cat_placavideo_desc"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <Button
-                android:id="@+id/botao_torta"
+                android:id="@+id/botao_cat_placavideo"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="16dp"
                 android:paddingTop="16dp"
                 android:paddingRight="16dp"
-                android:text="@string/botao_ver_receita" />
+                android:text="@string/botao_ver_categoria" />
 
         </LinearLayout>
 
@@ -122,7 +122,7 @@
                 android:paddingLeft="16dp"
                 android:paddingTop="16dp"
                 android:paddingRight="16dp"
-                android:text="@string/receita_cookie_titulo"
+                android:text="@string/cat_processador_titulo"
                 android:textAppearance="?android:textAppearanceLarge" />
 
 
@@ -132,18 +132,18 @@
                 android:paddingLeft="16dp"
                 android:paddingTop="16dp"
                 android:paddingRight="16dp"
-                android:text="@string/receita_cookie_desc"
+                android:text="@string/cat_processador_desc"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <Button
-                android:id="@+id/botao_cookie"
+                android:id="@+id/botao_cat_processador"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="16dp"
                 android:paddingTop="16dp"
                 android:paddingRight="16dp"
-                android:text="@string/botao_ver_receita" />
+                android:text="@string/botao_ver_categoria" />
 
         </LinearLayout>
 
@@ -167,7 +167,7 @@
                 android:paddingLeft="16dp"
                 android:paddingTop="16dp"
                 android:paddingRight="16dp"
-                android:text="@string/receita_sorvete_titulo"
+                android:text="@string/cat_discorigido_titulo"
                 android:textAppearance="?android:textAppearanceLarge" />
 
 
@@ -177,18 +177,18 @@
                 android:paddingLeft="16dp"
                 android:paddingTop="16dp"
                 android:paddingRight="16dp"
-                android:text="@string/receita_sorvete_desc"
+                android:text="@string/cat_discorigido_desc"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <Button
-                android:id="@+id/botao_sorvete"
+                android:id="@+id/botao_cat_discorigido"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="16dp"
                 android:paddingTop="16dp"
                 android:paddingRight="16dp"
-                android:text="@string/botao_ver_receita" />
+                android:text="@string/botao_ver_categoria" />
 
         </LinearLayout>
 

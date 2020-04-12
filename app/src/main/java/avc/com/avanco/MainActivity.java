@@ -1,4 +1,4 @@
-package avc.com.olamundo;
+package avc.com.avanco;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+
+import avc.com.avanco.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,41 +19,42 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button botaoBolo = findViewById(R.id.botao_bolo);
-        botaoBolo.setOnClickListener(new View.OnClickListener() {
+        Button botaoCatPlacaMae = findViewById(R.id.botao_cat_placamae);
+        botaoCatPlacaMae.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, BoloActivity.class);
+                Intent intent = new Intent(MainActivity.this, PlacaMaeActivity.class);
                 startActivity(intent);
             }
         });
 
-        Button botaoTorta = findViewById(R.id.botao_torta);
-        botaoTorta.setOnClickListener(new View.OnClickListener() {
+        Button botaoCatPlacaVideo = findViewById(R.id.botao_cat_placavideo);
+        botaoCatPlacaVideo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, TortaActivity.class);
+                Intent intent = new Intent(MainActivity.this, PlacaVideoActivity.class);
                 startActivity(intent);
             }
         });
 
-        Button botaoCookie = findViewById(R.id.botao_cookie);
-        botaoCookie.setOnClickListener(new View.OnClickListener() {
+        Button botaoCatProcessador = findViewById(R.id.botao_cat_processador);
+        botaoCatProcessador.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, CookieActivity.class);
+                Intent intent = new Intent(MainActivity.this, ProcessadorActivity.class);
                 startActivity(intent);
             }
         });
 
-        Button botaoSorvete = findViewById(R.id.botao_sorvete);
-        botaoSorvete.setOnClickListener(new View.OnClickListener() {
+        Button botaoCatDiscoRigido = findViewById(R.id.botao_cat_discorigido);
+        botaoCatDiscoRigido.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, SorveteActivity.class);
+                Intent intent = new Intent(MainActivity.this, DiscoRigidoActivity.class);
                 startActivity(intent);
             }
         });
+
 
 
 
@@ -86,6 +89,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onRestart() {
         super.onRestart();
         Log.d(TAG, "onRestart");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.d(TAG, "onDestroy");
     }
 
 

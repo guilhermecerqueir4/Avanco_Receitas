@@ -9,11 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CategoriaActivity"></activity>
-        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".AdminAddNewProductActivity"></activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".CategoriaActivity" />
+        <activity android:name=".CategoryActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".CategoryActivity">
+        <activity android:name=".RegistrationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

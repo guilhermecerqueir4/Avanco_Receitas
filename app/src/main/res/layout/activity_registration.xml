@@ -24,37 +24,78 @@
 
 
             <ImageView
-                android:layout_width="140dp"
-                android:layout_height="140dp"
+                android:layout_width="81dp"
+                android:layout_height="73dp"
                 android:layout_gravity="center"
                 android:scaleType="centerCrop"
                 android:src="@drawable/avanco_logo_invert" />
 
 
+            <Button
+                android:id="@+id/botaoLogin"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+
+                android:background="@color/colorPrimary"
+                android:drawablePadding="10dp"
+                android:text="Já possui conta? Clique aqui !"
+                android:textStyle="bold|italic"
+                android:textColor="@android:color/white"
+                android:textSize="18dp"
+
+                />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="3dp"
+                android:text="OU "
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
                 android:text="Registre-se abaixo"
                 android:textColor="@color/colorAccent"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/email"
+                android:id="@+id/nomeUsuario"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit"
+                android:drawableLeft="@drawable/ic_person"
+                android:drawablePadding="10dp"
+                android:ems="1"
+                android:hint="Nome de usuário"
+                android:inputType="text"
+                android:padding="15dp"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="15dp"
+
+                />
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/edit"
                 android:drawableLeft="@drawable/ic_person"
                 android:drawablePadding="10dp"
                 android:ems="10"
-                android:hint="email"
+                android:hint="Telefone"
                 android:inputType="textEmailAddress"
                 android:padding="15dp"
-                android:textColorHint="@color/colorAccent"
+                android:textColorHint="@color/colorPrimary"
                 android:textSize="15dp"
 
                 />
@@ -69,10 +110,10 @@
                 android:drawableLeft="@drawable/ic_lock_"
                 android:drawablePadding="10dp"
                 android:ems="10"
-                android:hint="senha"
+                android:hint="Senha"
                 android:inputType="textPassword"
                 android:padding="15dp"
-                android:textColorHint="@color/colorAccent"
+                android:textColorHint="@color/colorPrimary"
                 android:textSize="15dp" />
 
             <EditText
@@ -85,10 +126,10 @@
                 android:drawableLeft="@drawable/ic_lock_"
                 android:drawablePadding="10dp"
                 android:ems="10"
-                android:hint="confirmar senha"
+                android:hint="Confirmar senha"
                 android:inputType="textPassword"
                 android:padding="15dp"
-                android:textColorHint="@color/colorAccent"
+                android:textColorHint="@color/colorPrimary"
                 android:textSize="15dp" />
 
             <Button
@@ -96,38 +137,19 @@
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="15dp"
                 android:background="@color/colorAccent"
                 android:drawablePadding="10dp"
                 android:text="Registrar"
-                android:textColor="@android:color/black"
+                android:textColor="@color/colorPrimary"
                 android:textSize="16dp"
+                android:textStyle="bold"
 
                 />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="15dp"
-                android:text="OU "
-                android:textColor="@color/colorAccent"
-                android:textSize="20dp"
-                android:textStyle="bold" />
 
-            <Button
-                android:id="@+id/botaoLogin"
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="25dp"
-                android:background="@color/colorAccent"
-                android:drawablePadding="10dp"
-                android:text="FAZER LOGIN"
-                android:textColor="@android:color/black"
-                android:textSize="16dp"
 
-                />
+
 
 
         </LinearLayout>

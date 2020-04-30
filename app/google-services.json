@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "316016979861",
+    "firebase_url": "https://avancotech-b84db.firebaseio.com",
+    "project_id": "avancotech-b84db",
+    "storage_bucket": "avancotech-b84db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316016979861:android:0f6c134d9dfd850c21509c",
+        "android_client_info": {
+          "package_name": "avc.com.olamundo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316016979861-i0mbrob201d187nv911chflpad46c2qh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "avc.com.olamundo",
+            "certificate_hash": "1104d37136e8131dd8b26cc9ddee8c63b1ef519c"
+          }
+        },
+        {
+          "client_id": "316016979861-1k540vqsv9j87q5c4ffh38935nqgb45j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD97lwLau_aocDfziiOScwfr3ZhKwV5n4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316016979861-1k540vqsv9j87q5c4ffh38935nqgb45j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

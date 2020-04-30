@@ -9,6 +9,6 @@ public class CategoriaActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_categoria);
+        setContentView(R.layout.activity_categoria); //d
     }
 }
